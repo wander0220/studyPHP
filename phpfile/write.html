@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .row {
+            width: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>글쓰기</h3>
+    <form id="form" method="POST" action="write_pro.php">
+        ID :
+        <input type="text" id="id" name="user_id" >
+        <br> Password : 
+        <input type="password" id="password" name="user_passwd" >
+
+        <br>title : 
+        <input type="text" id="title" name="user_title" >   
+
+        <br><br>Content : 
+        <textarea cols="50" rows="10" name='content'></textarea>
+
+        <br>
+        <input type="submit" value="등록하기" id="button">
+
+    </form>
+</body>
+
+</html>
